@@ -3,7 +3,8 @@
 The code-quality gate between your AI agents and production.
 
 ```bash
-npx aislop scan                           # score any project
+npx aislop scan                           # find slop
+npx aislop fix                            # fix what's safely fixable
 npx skills add scanaislop/aislop-skill    # install as an agent skill
 ```
 
