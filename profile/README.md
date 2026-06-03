@@ -1,4 +1,4 @@
-# scanaislop
+# scanaislop.com
 
 **AI slop detector and deterministic quality gate for AI coding agents.**
 
@@ -7,7 +7,8 @@
 [![GitHub Actions](https://github.com/scanaislop/aislop/actions/workflows/ci.yml/badge.svg)](https://github.com/scanaislop/aislop/actions/workflows/ci.yml)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/scanaislop/aislop/blob/main/LICENSE)
 
-scanaislop builds the open-source
+[`scanaislop.com`](https://scanaislop.com) is the product home for the
+open-source
 [`aislop`](https://github.com/scanaislop/aislop) CLI and hosted quality
 platform for engineering teams using Claude Code, Cursor, Codex, Copilot,
 OpenCode, Windsurf, and other AI coding agents.
