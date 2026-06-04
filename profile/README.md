@@ -25,6 +25,8 @@ npx aislop scan
 
 ## What aislop Catches
 
+- 50+ deterministic rules across TypeScript, JavaScript, Python, Go, Rust,
+  Ruby, and PHP.
 - Agent-written code that looks finished but carries hidden quality debt.
 - Narrative comments, TODO stubs, duplicated helpers, and dead code.
 - Swallowed exceptions, unsafe type escapes, hallucinated imports, and oversized
