@@ -24,7 +24,7 @@ Also available on npm, Yarn, Bun, Homebrew, and PyPI — install, then run `aisl
 
 ```bash
 npm install -g aislop                # npm
-yarn global add aislop               # Yarn
+yarn dlx aislop scan                 # Yarn (no install)
 bun add -g aislop                    # Bun
 brew install scanaislop/tap/aislop   # Homebrew
 pipx install aislop                  # Python
