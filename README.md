@@ -17,7 +17,9 @@ they reach pull requests, CI, or production.
 Run this from any project root:
 
 ```bash
-npx aislop scan
+npx aislop scan                       # Node (no install)
+brew install scanaislop/tap/aislop    # Homebrew
+pipx install aislop                   # Python
 ```
 
 Use [`scanaislop/aislop`](https://github.com/scanaislop/aislop) for source
