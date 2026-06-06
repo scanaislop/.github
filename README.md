@@ -20,7 +20,15 @@ Run this from any project root, no install required:
 npx aislop scan
 ```
 
-Prefer a persistent install? `brew install scanaislop/tap/aislop` or `pipx install aislop`, then run `aislop scan`.
+Also available on npm, Yarn, Bun, Homebrew, and PyPI — install, then run `aislop scan`:
+
+```bash
+npm install -g aislop                # npm
+yarn global add aislop               # Yarn
+bun add -g aislop                    # Bun
+brew install scanaislop/tap/aislop   # Homebrew
+pipx install aislop                  # Python
+```
 
 Use [`scanaislop/aislop`](https://github.com/scanaislop/aislop) for source
 code, issues, releases, and installation details. Use
