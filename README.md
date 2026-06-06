@@ -14,13 +14,13 @@ surface in this repository.
 scanaislop.com. It scans AI-generated code for repeatable quality issues before
 they reach pull requests, CI, or production.
 
-Run this from any project root:
+Run this from any project root, no install required:
 
 ```bash
-npx aislop scan                       # Node (no install)
-brew install scanaislop/tap/aislop    # Homebrew
-pipx install aislop                   # Python
+npx aislop scan
 ```
+
+Prefer a persistent install? `brew install scanaislop/tap/aislop` or `pipx install aislop`, then run `aislop scan`.
 
 Use [`scanaislop/aislop`](https://github.com/scanaislop/aislop) for source
 code, issues, releases, and installation details. Use

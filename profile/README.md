@@ -14,13 +14,13 @@ reach pull requests, CI, or production.
 
 ## Scan Your Code for AI Slop
 
-Run this from any project root:
+Run this from any project root, no install required:
 
 ```bash
-npx aislop scan                       # Node (no install)
-brew install scanaislop/tap/aislop    # Homebrew
-pipx install aislop                   # Python
+npx aislop scan
 ```
+
+Prefer a persistent install? `brew install scanaislop/tap/aislop` or `pipx install aislop`, then run `aislop scan`.
 
 ## What aislop Catches
 
