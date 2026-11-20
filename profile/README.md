@@ -1,44 +1,18 @@
-# scanaislop.com
+# Scan AI Slop
 
-**Scan your code for AI slop before it reaches production.**
+[aislop](https://github.com/scanaislop/aislop) is an open-source code-quality scanner for teams using AI coding agents. It flags problems such as swallowed exceptions, duplicated helpers, and unsafe type casts. Each finding points to the code that triggered it.
 
-[![aislop on npm](https://img.shields.io/npm/v/aislop.svg?label=aislop)](https://www.npmjs.com/package/aislop) [![npm downloads](https://img.shields.io/npm/dm/aislop.svg)](https://www.npmjs.com/package/aislop) [![PyPI downloads](https://img.shields.io/pepy/dt/aislop.svg?label=PyPI%20downloads)](https://pypi.org/project/aislop/) [![Homebrew tap](https://img.shields.io/badge/Homebrew-scanaislop%2Ftap-2f855a.svg)](https://github.com/scanaislop/homebrew-tap) [![GitHub Actions](https://github.com/scanaislop/aislop/actions/workflows/ci.yml/badge.svg)](https://github.com/scanaislop/aislop/actions/workflows/ci.yml) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/scanaislop/aislop/blob/main/LICENSE)
+## Run your first scan
 
-[`scanaislop.com`](https://scanaislop.com) is the product home for
-[`aislop`](https://github.com/scanaislop/aislop), the open-source AI slop
-detector and deterministic quality gate for AI-generated code.
+From your project root, run the CLI with Node.js 20 or later.
 
-`aislop` helps teams using Claude Code, Cursor, Codex, Copilot, OpenCode,
-Windsurf, and other AI coding agents catch repeatable problems before they
-reach pull requests, CI, or production.
-
-## Scan Your Code for AI Slop
-
-Run this from any project root, no install required:
-
-```bash
-npx aislop scan
+```sh
+npx aislop@latest scan
 ```
 
-Also available on npm, Yarn, Bun, Homebrew, and PyPI — install, then run `aislop scan`:
+Review the findings locally, install an agent hook to check edits as you work, or run the same checks on pull requests. The scanner uses deterministic rules and runs without an LLM.
 
-```bash
-npm install -g aislop                # npm
-yarn dlx aislop scan                 # Yarn (no install)
-bunx aislop scan                     # Bun (no install)
-bun add -g aislop                    # Bun
-brew install scanaislop/tap/aislop   # Homebrew
-pipx install aislop                  # Python
-```
-
-## What aislop Catches
-
-- 50+ deterministic rules across TypeScript, JavaScript, Expo / React Native,
-  Python, Go, Rust, Ruby, and PHP.
-- Agent-written code that looks finished but carries hidden quality debt.
-- Narrative comments, TODO stubs, duplicated helpers, and dead code.
-- Swallowed exceptions, unsafe type escapes, hallucinated imports, and oversized
-  functions.
-- Security and reliability risks that normal linting can miss.
-
-Same code in, same score out. No LLM runs in the scan path.
+- [Language support](https://github.com/scanaislop/aislop#language-support) lists the supported targets, including Scala (beta).
+- [Installation](https://github.com/scanaislop/aislop#installation) covers npm, Bun, Yarn, Homebrew, and Python.
+- [Agent skills](https://github.com/scanaislop/skills) help your coding agent act on findings.
+- [Documentation](https://docs.scanaislop.com) covers rules, configuration, and CI.
